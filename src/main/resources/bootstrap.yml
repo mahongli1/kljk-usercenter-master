@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: usercenter-server
+  cloud:
+    config:
+      profile: prod
+      label: master
+      uri: http://config.towerfun.cn/
+  ribbon:
+      eureka:
+        enabled: true
